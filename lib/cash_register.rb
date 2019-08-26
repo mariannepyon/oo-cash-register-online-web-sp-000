@@ -9,7 +9,4 @@ class CashRegister
     @discount = discount
     @items = []
   end
-
-  def discount
-    
 end
