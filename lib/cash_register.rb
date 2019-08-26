@@ -37,8 +37,8 @@ def apply_discount()
 
 
  def void_last_transaction()
-   @total - @last_transaction_amount
-   total
+   @total -= @last_transaction_amount
+   
  end
 
 end
