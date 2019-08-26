@@ -35,6 +35,7 @@ class CashRegister
     @total -= @price
     if items = []
       return 0.0
+    end
   end
 
 end
